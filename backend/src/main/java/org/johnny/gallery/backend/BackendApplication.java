@@ -1,4 +1,4 @@
-package com.example.demo;
+package org.johnny.gallery.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

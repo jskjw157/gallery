@@ -1,4 +1,4 @@
-package com.example.demo;
+package org.johnny.gallery.backend;
 
 import java.util.ArrayList;
 import java.util.List;

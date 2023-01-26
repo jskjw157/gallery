@@ -11,11 +11,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
 @RestController
 public class AccountController {
 	
-	@Autowired
-	MemberRepository memberRepository;
+	
+	private final MemberRepository memberRepository;
 	
 	@PostMapping("/api/account/login")
 	public int login(@RequestBody Map<String, String> params) {
